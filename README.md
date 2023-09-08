@@ -17,11 +17,23 @@ streamlit
 replicate
 ```
 
+## To install prerequisite locally
+````
+pip install streamlite replicate
+````
 ## Getting your own Replicate API token
 
 To use this app, you'll need to get your own [Replicate](https://replicate.com/) API token.
 
 After signing up to Replicate, you can access your API token from [this page](https://replicate.com/account/api-tokens).
+
+When you get the API key, please add that under .streamlit/secrets.toml file 
+
+## To run this modal locally
+````
+streamlit run streamlit_app_v2.py
+````
+
 
 ## Other Llama 2 models to try
 
